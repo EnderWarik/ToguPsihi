@@ -2,7 +2,7 @@ version: '3'
 services:
 
   end:
-    image: enderwar/togupsy:latest
+    image: enderwar/togupsy:1.0.2
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_URLS=http://+:5076
